@@ -1,19 +1,23 @@
 # rsdoc-to-sat
-Convert DesignSpark Mechanical rsdoc file [1] to sat file which can be loaded into Moi3D [2]
+Convert DesignSpark Mechanical [DSM] rsdoc file to sat file which can be loaded into [MoI3d]
 
-Install DesignSpark Mechanical [1] (it provides SabSatConverter.exe)
-Install python3 [3]
+### Installation
+Install [DSM] (it provides SabSatConverter.exe). Install [python3].
 
-Then run:
 
+### Running
+
+````
 rsdoc-to-sat.py <rsdoc file>
+````
 
-or simply drag & drop rsdoc file(s) onto rsdoc-to-sat.py file. .sat file(s) will appear
-in the same directory as rsdoc file(s).
+or simply **drag & drop rsdoc file(s) onto rsdoc-to-sat.py file**
+
+.sat file(s) will appear in the same directory as rsdoc file(s).
 
 
-1. http://www.rs-online.com/designspark/electronics/eng/page/mechanical
-2. http://moi3d.com/
-3. http://python.org/
+[dsm]:http://www.rs-online.com/designspark/electronics/eng/page/mechanical
+[moi3d]:http://moi3d.com/
+[python3]:http://python.org/
 
 arekm / maven.pl
