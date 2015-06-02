@@ -79,7 +79,7 @@ def runme():
                         if nr:
                             nrstr = "-%d" % nr
                         outfile = archivefile + nrstr + '.sat'
-                        cmd = [sabsat, '-i', tfile.name, '-o', outfile]
+                        cmd = [sabsat, '-i', tfile.name, '-o', outfile, '-v', '8']
                         with open(os.devnull, 'w') as nullf:
                             subprocess.call(cmd, stdout=nullf)
                         os.unlink(tfile.name)
